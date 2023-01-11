@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    background-color: #A9143C;
+    padding: 40px;
+    /* position: relative; */
+    gap: 50px;
+  }
+  .navbar a {
+    text-decoration: none;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 200px;
+    font-weight: 700;
+    color: #E3E2DE;
+  }
+  .navbar a:hover {
+    color: white;
+    transition: 0.8;
+  }
