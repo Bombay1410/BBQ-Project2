@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> <link rel="stylesheet" href="gallery.css">
+<head>
+    <link rel="stylesheet" href="gallery.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,5 +14,76 @@
         <a href="#">Covid</a>
         <a href="#">About us</a>
     </header>
+    <div id="content-wrapper">
+		
+
+		<div class="column">
+			<img id=featured src="images/shoe1.jpg">
+
+			<div id="slide-wrapper" >
+				<img id="slideLeft" class="arrow" src="imggallery/arrow-left.png">
+
+				<div id="slider">
+					<img class="thumbnail active" src="imggallery/IMG_20221202_130107.jpg">
+					<img class="thumbnail" src="imggallery/IMG_20221202_130146.jpg">
+					<img class="thumbnail" src="imggallery/IMG_20221202_130149.jpg">
+
+					<img class="thumbnail" src="imggallery/IMG_20221202_132322.jpg">
+					<img class="thumbnail" src="imggallery/IMG_20221202_132328.jpg">
+					<img class="thumbnail" src="imggallery/IMG_20221202_132336.jpg">
+					<img class="thumbnail" src="imggallery/IMG_20221202_132338.jpg">
+                    <img src="imggallery/CqC2HuIY.jpeg" alt="" class="thumbnail">
+                    <img src="imggallery/EbekhcvQ.jpeg" alt="" class="thumbnail">
+                    <img src="imggallery/GtOBkNSI.jpeg" alt="" class="thumbnail">
+                    <img src="imggallery/Huy6d3hU.jpeg" alt="" class="thumbnail">
+                    <img src="imggallery/IQHEEgcA.jpeg" alt="" class="thumbnail">
+                    <img src="imggallery/jQjMCPcI.jpeg" alt="" class="thumbnail">
+                    <img src="imggallery/mTVSNcwo.jpeg" alt="" class="thumbnail">
+                    <img src="imggallery/q9nCcPOw.jpeg" alt="" class="thumbnail">
+                    <img src="imggallery/VLfGLXq8.jpeg" alt="" class="thumbnail">
+                    <img src="imggallery/yZhfpXL0.jpeg" alt="" class="thumbnail">
+				</div>
+
+				<img id="slideRight" class="arrow" src="imggallery/arrow-right.png">
+			</div>
+		</div>
+
+		
+	</div>
+
+	<script type="text/javascript">
+		let thumbnails = document.getElementsByClassName('thumbnail')
+
+		let activeImages = document.getElementsByClassName('active')
+
+		for (var i=0; i < thumbnails.length; i++){
+
+			thumbnails[i].addEventListener('mouseover', function(){
+				console.log(activeImages)
+				
+				if (activeImages.length > 0){
+					activeImages[0].classList.remove('active')
+				}
+				
+
+				this.classList.add('active')
+				document.getElementById('featured').src = this.src
+			})
+		}
+
+
+		let buttonRight = document.getElementById('slideRight');
+		let buttonLeft = document.getElementById('slideLeft');
+
+		buttonLeft.addEventListener('click', function(){
+			document.getElementById('slider').scrollLeft -= 180
+		})
+
+		buttonRight.addEventListener('click', function(){
+			document.getElementById('slider').scrollLeft += 180
+		})
+
+
+	</script>
 </body>
 </html>
