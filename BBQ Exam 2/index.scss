@@ -39,7 +39,10 @@ body {
 .logo {
     display: flex;
     align-items: center;
+    height: 10px;
+    width: 10px;
 }
+
 .navbar {
     display: flex;
     // justify-content: space-around;
@@ -284,31 +287,26 @@ body {
         padding: 5px;
     }
 }
-.socialmedia {
-    display: block;
-    z-index: 4;
-    color: black;
-    padding: 5px;
-    font-size: 30px;
-    margin-left: 2px;
-}
-.socialmedia a {
-    text-decoration: none;
-    color: black;
-}
 .ft {
     display: flex;
     position: relative;
     align-items: flex-end;
-    margin-left: px;
     font-size: 13px;
+    h1 {
+    
+    }
 }
-footer {
-    border-top: solid;
+
+
+.ft h1 {
+    position: absolute;
+    z-index: 3;
+    top: 135px;
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 30px;
 }
-.pic {
-    width: 100%;
-}
+
 @media screen and (max-width:1660px) {
     .register {
         margin-bottom: 30px;
@@ -326,6 +324,22 @@ footer {
         font-size: 5px;
     }
 }
+// .socialmedia {
+//     z-index: 4;
+//     padding: 5px;
+//     font-size: 30px;
+//     margin-left: 2px;
+// }
+// .socialmedia a {
+//     text-decoration: none;
+//     color: black;
+//     // position: absolute;
+//     z-index: 4;
+//     top: 110px;
+//     margin-left: 5px;
+//     font-size: 35px;
+// }
+
 @media screen and (max-width:1660px) {
     // .pic {
     //     width: 1660px;

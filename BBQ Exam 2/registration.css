@@ -332,6 +332,20 @@ footer {
   border-left-width: 3px;
   display: flex;
 }
+.ft {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  font-size: 13px;
+}
+.ft h1 {
+  position: absolute;
+  z-index: 3;
+  top: 135px;
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 30px;
+}
 @media screen and (max-width:1700px) {
   #teamname {
     padding: 20px;
