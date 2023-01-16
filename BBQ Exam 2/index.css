@@ -31,6 +31,21 @@ body {
   z-index: 2;
 }
 
+
+.ft{
+  background: url(banners/footer.png);
+  height: 100px;
+
+}
+
+.footerText{
+  color: gold;
+
+}
+
+
+
+
 .navbar {
   display: flex;
   background-color: #A9143C;
@@ -284,6 +299,8 @@ body {
   position: relative;
   align-items: flex-end;
   margin-left: px;
+  align-items: center;
+  justify-content: center;
   font-size: 13px;
 }
 
