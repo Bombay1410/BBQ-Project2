@@ -311,7 +311,94 @@ footer {
 .pic {
   width: 100%;
 }
+/* Reviews */
+.commentContainer{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #b5b5b5;
+  margin-top: -90px;
+  padding: 5%;
 
+}
+
+.title{
+  font-family: 'Rockwell';
+  font-size: 60px;
+  color: #E3E2DE;
+  margin-bottom: 5%;
+  letter-spacing: 5px;
+  margin-top: 5%;
+}
+
+
+.card{
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 2fr;
+
+}
+
+#red{
+  background-color: #a9143c;
+}
+
+#gold{
+  background-color: #FFEC00;
+}
+
+#gray{
+  background-color: #373737;
+}
+
+.name{
+  grid-row: 1;
+  grid-column: 1/1;
+  font-family: 'Onyx';
+  font-size: 35px;
+  color: #FFF;
+  height: 50%;
+  text-align: left;
+  margin-left: 8%;
+  margin-top: 2%;
+
+}
+
+.recom{
+  grid-row: 2;
+  grid-column: 1/1;
+  font-family: 'Fauna One';
+  font-size: 23px;
+  color: #FFF;
+  border-left: 3px solid white;
+  margin-top: -60px;
+  margin-bottom: 60px;
+  margin-left: 10%;
+  text-align: left;
+  padding-left: 10%;
+  
+}
+
+#yellow .recom{
+  color: #000;
+
+  border-left: 3px solid #000;
+}
+
+#yellow .name{
+  color: #000;
+}
+img{
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 5%;
+  width: 120px;
+  height: 120px;
+}
 @media screen and (max-width: 1660px) {
   .register {
     margin-bottom: 30px;
