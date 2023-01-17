@@ -29,8 +29,10 @@ body {
 .logo {
   display: flex;
   align-items: center;
+  height: 13%;
   position: absolute;
   z-index: 2;
+  margin-left: 6px;
 }
 
 .navbar {
@@ -44,9 +46,10 @@ body {
   text-decoration: none;
   width: 20%;
   display: flex;
+  align-items: center;
   text-decoration: none;
   font-size: 25px;
-  margin-left: 200px;
+  margin-left: 240px;
   font-weight: 700;
   color: #E3E2DE;
 }
@@ -111,7 +114,7 @@ body {
 .buttons {
   display: flex;
   flex-direction: row;
-  gap: 480px;
+  gap: 33%;
   margin-left: 15px;
   height: 180px;
   align-items: flex-end;

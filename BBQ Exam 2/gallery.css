@@ -7,6 +7,15 @@ body {
   background-repeat: repeat;
   
 }
+.logo {
+  display: flex;
+  align-items: center;
+  height: 13%;
+  position: absolute;
+  z-index: 2;
+  margin-left: 6px;
+}
+
 .navbar {
   display: flex;
   background-color: #A9143C;
