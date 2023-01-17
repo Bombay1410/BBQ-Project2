@@ -25,6 +25,7 @@ $font-size-l: 85px;
 
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -32,15 +33,16 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     width: auto;
-    height: 1000px;
     background-color: $secondary;
     margin: 0px;
 }
 .logo {
     display: flex;
     align-items: center;
-    height: 10px;
-    width: 10px;
+    
+    position: absolute;
+    z-index: 2;
+    
 }
 
 .navbar {
@@ -66,6 +68,26 @@ body {
     a:hover {
         color: white;
         transition: 0.8;
+    }
+}
+.reviewimg {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 40px;
+    .img1 {
+        width: 120px;
+        height: 120px;
+        background-color: #E3E2DE;
+    }
+    .img2 {
+        width: 120px;
+        height: 120px;
+    }
+    .img3 {
+        width: 120px;
+        height: 120px;
     }
 }
 .titles {
@@ -234,67 +256,21 @@ body {
         margin-bottom: 10px;
     }
 }
-.covid{
-    margin-top: 25px;
-    // display: flex;
+.hero {
+    display: flex;
+    // position: absolute;
     // position: relative;
-    .hero {
-        display: flex;
-        // position: absolute;
-        position: relative;
-        
-    }
-    .covidinfo {
-        margin-left: 15px;
-        // margin-top: 300px;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        z-index: 3;
-
-    }
-    .header1 {
-        color: #807600;
-        font-size: 55px;
-        font-weight: 700;
-        font-family: rockwell;
-        background-color: $primary;
-        opacity: 0.8;
-    }
-    .header2 {
-        color: #807600;
-        font-size: 45px;
-        font-family: century;
-        background-color: white;
-        opacity: 0.6;
-    }
-    ul li {
-        color: #807600;
-        font-size: 30px;
-        margin-bottom: 5px;
-    }
-    ul {
-        background-color: white;
-        padding: px;
-        opacity: 0.6;
-    }
-    p {
-        font-size: 30px;
-        margin-top: 10px;
-        color: #A9143C;
-        background-color: $secondary;
-        opacity: 0.6;
-        padding: 5px;
-    }
+    
 }
 .ft {
     display: flex;
     position: relative;
     align-items: flex-end;
     font-size: 13px;
-    h1 {
-    
-    }
+    align-items: center;
+    justify-content: center;
+    border-top-style: solid;
+    opacity: 0.7;
 }
 
 

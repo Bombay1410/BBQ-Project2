@@ -14,6 +14,7 @@
 }
 * {
   margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -21,30 +22,16 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   width: auto;
-  height: 1000px;
   background-color: #E3E2DE;
   margin: 0px;
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   position: absolute;
   z-index: 2;
 }
-
-
-.ft{
-  background: url(banners/footer.png);
-  height: 100px;
-
-}
-
-.footerText{
-  color: gold;
-
-}
-
-
-
 
 .navbar {
   display: flex;
@@ -57,7 +44,6 @@ body {
   text-decoration: none;
   width: 20%;
   display: flex;
-  align-items: center;
   text-decoration: none;
   font-size: 25px;
   margin-left: 200px;
@@ -68,6 +54,12 @@ body {
   color: white;
   transition: 0.8;
 }
+
+.reviews {
+  position: relative;
+  
+}
+
 
 .titles {
   display: flex;
@@ -232,86 +224,118 @@ body {
   margin-bottom: 10px;
 }
 
-.covid {
-  margin-top: 25px;
-}
-.covid .hero {
+.hero {
   display: flex;
-  position: relative;
-}
-.covid .covidinfo {
-  margin-left: 15px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  z-index: 3;
-}
-.covid .header1 {
-  color: #807600;
-  font-size: 55px;
-  font-weight: 700;
-  font-family: rockwell;
-  background-color: #A9143C;
-  opacity: 0.8;
-}
-.covid .header2 {
-  color: #807600;
-  font-size: 45px;
-  font-family: century;
-  background-color: white;
-  opacity: 0.6;
-}
-.covid ul li {
-  color: #807600;
-  font-size: 30px;
-  margin-bottom: 5px;
-}
-.covid ul {
-  background-color: white;
-  padding: px;
-  opacity: 0.6;
-}
-.covid p {
-  font-size: 30px;
-  margin-top: 10px;
-  color: #A9143C;
-  background-color: #E3E2DE;
-  opacity: 0.6;
-  padding: 5px;
-}
-
-.socialmedia {
-  display: block;
-  z-index: 4;
-  color: black;
-  padding: 5px;
-  font-size: 30px;
-  margin-left: 2px;
-}
-
-.socialmedia a {
-  text-decoration: none;
-  color: black;
 }
 
 .ft {
   display: flex;
   position: relative;
   align-items: flex-end;
-  margin-left: px;
+  font-size: 13px;
   align-items: center;
   justify-content: center;
-  font-size: 13px;
+  border-top-style: solid;
+  opacity: 1;
 }
 
-footer {
-  border-top: solid;
+.ft h1 {
+  position: absolute;
+  z-index: 3;
+  top: 135px;
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  z-index: 5;
 }
-
-.pic {
+.commentContainer{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #b5b5b5;
+  margin-top: -90px;
+  padding: 5%;
+}
+.title{
+  font-family: 'Rockwell';
+  font-size: 60px;
+  color: #E3E2DE;
+  margin-bottom: 5%;
+  letter-spacing: 5px;
+  margin-top: 5%;
+}
+.card{
   width: 100%;
-}
+  height: 150px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 2fr;
 
+}
+.name{
+  grid-row: 1;
+  grid-column: 1/1;
+  font-family: 'Onyx';
+  font-size: 35px;
+  color: #FFF;
+  height: 50%;
+  text-align: left;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+.recom{
+  grid-row: 2;
+  grid-column: 1/1;
+  font-family: 'Fauna One';
+  font-size: 23px;
+  color: #FFF;
+  border-left: 3px solid white;
+  margin-top: -60px;
+  margin-bottom: 60px;
+  margin-left: 10%;
+  text-align: left;
+  padding-left: 10%;
+}
+#yellow .recom{
+  color: #000;
+  border-left: 3px solid #000;
+}
+#yellow .name{
+  color: #000;
+}
+.imgreviewer{
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 5%;
+  width: 120px;
+  height: 120px;
+}
+.reviewimg {
+  position: relative;
+}
+.reviews {
+  position: absolute;
+}
+#gold {
+  border-style: double;
+  border-radius: 15px;
+  border-color: white;
+  width: 99.6%;
+}
+#gray {
+  border-style: double;
+  border-radius: 15px;
+  border-color: white;
+  width: 99.6%;
+}
+#red {
+  border-style: double;
+  border-radius: 15px;
+  border-color: white;
+  width: 99.6%;
+}
 @media screen and (max-width: 1660px) {
   .register {
     margin-bottom: 30px;
