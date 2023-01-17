@@ -49,7 +49,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65%;
+    width: 85%;
     height: 80%;
   }
   .firstsec h2 {
@@ -58,21 +58,21 @@ body {
     position: absolute;
     z-index: 2;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 95%;
   }
   .firsth {
     /* top: 70px; */
     font-family: rockwell;
-    font-size: 45px;
+    font-size: 65px;
     font-weight: 700;
   }
   .secondh {
     /* left: 130px; */
     font-family: rockwell;
-    font-size: 45px;
+    font-size: 65px;
     font-weight: 700;
   }
   .img {
@@ -144,21 +144,49 @@ body {
     width: 190px;
   }
   .bk2 {
-    position: absolute;
+    position: relative;
+    opacity: 0.7;
   }
   .secondsec h1 {
     color: #ffec00;
     display: flex;
-    position: relative;
+    position: absolute;
     font-family: rockwell;
     justify-content: center;
+    width: 100%;
     align-items: center;
+    height: 50%;
+    z-index: 2;
+    font-size: 50px;
   }
   .secondsec h2 {
     color: #ffec00;
-    position: relative;
+    position: absolute;
     font-family: rockwell;
     display: flex;
     justify-content: center;
+    width: 100%;
     text-align: center;
+    height: 80%;
+    align-items: center;
+    z-index: 2;
+    font-size: 30px;
   }
+  .ft {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    font-size: 13px;
+    opacity: 0.5;
+  }
+  .ft h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 3;
+    /* margin-left: 5px; */
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
