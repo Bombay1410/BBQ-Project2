@@ -19,6 +19,8 @@ body {
     /* position: relative; */
     gap: 50px;
     position: relative;
+    border-bottom-style: double;
+    color: white;
   }
   .navbar a {
     text-decoration: none;
@@ -83,9 +85,14 @@ body {
   }
   .pic {
     width: 200px;
-    border-style: solid;
+    border-style: double;
     border-radius: 360px;
-    
+    border-color: white;
+    border-width: 3px;
+  }
+  .aboutmikael {
+    border-top-style: double;
+    border-color: white;
   }
   .info {
     display: flex;

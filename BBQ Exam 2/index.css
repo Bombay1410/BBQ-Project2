@@ -41,6 +41,8 @@ body {
   padding: 40px;
   position: relative;
   gap: 50px;
+  border-bottom-style: double;
+  color: white;
 }
 .navbar a {
   text-decoration: none;
@@ -127,6 +129,7 @@ body {
   color: white;
   padding: 10px;
   border-radius: 15px;
+  border-color: white;
 }
 .buttons .terms {
   font-size: 25px;
@@ -136,6 +139,7 @@ body {
   color: white;
   padding: 10px;
   border-radius: 15px;
+  border-color: white;
 }
 .buttons .sauce {
   font-size: 25px;
@@ -146,6 +150,7 @@ body {
   padding: 10px;
   border-radius: 15px;
   margin-left: -100px;
+  border-color: white;
 }
 .buttons .register a {
   text-decoration: none;
