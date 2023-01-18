@@ -198,3 +198,8 @@ footer {
   border-left: none;
   width: 100%;
 }
+@media screen and (max-width:1435px) {
+  #content-wrapper {
+    padding-top: 170px;
+  }
+}
