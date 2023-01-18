@@ -189,4 +189,94 @@ body {
     font-weight: 700;
     font-size: 30px;
   }
+
+
+  
+@media screen and (max-width:800px) {
+  .logo{
+    width: 20%;
+    height: auto;
+    margin: 1% 40%;
+  }
+  .navbar{
+    width: 800px;
+    padding: 20px;
+  }
+
+  .navbar a{
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+
+  .info {
+      margin: 70px;  }
+
+  .firsth {
+    margin-top: -119px;
+    margin-left: 86px;
+  }
+
+  .secondsec h1{
+    margin-top: -107px;
+  }
+  .secondsec h2{
+    margin-top: -26px;
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  .navbar{
+    width: 600px;
+    padding: 20px 2px;
+  }
+
+  .secondh{
+    font-size: 35px;
+    margin-top: -75px;
+  }
+
+  .firsth{
+    font-size: 35px;
+  }
+
+  .secondsec h1{
+    margin-top: -200px;
+  }
+  .secondsec h2{
+    margin-top: -150px;
+    font-size: 20px;
+  }
+
+  .info {
+    margin-top: 100px;  }
+
+}
+
+
+@media screen and (max-width:400px) {
+  
+
+  .secondh{
+    font-size: 25px;
+    margin-top: -75px;
+  }
+
+  .firsth{
+    font-size: 25px;
+  }
+
+  .secondsec h1{
+    margin-top: -200px;
+  }
+  .secondsec h2{
+    margin-top: -150px;
+    font-size: 15px;
+  }
+
+  .info {
+    margin-top: 100px;  }
+
+}
   

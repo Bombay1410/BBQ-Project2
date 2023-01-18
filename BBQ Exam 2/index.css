@@ -414,3 +414,82 @@ body {
     width: 1280px;
   }
 }/*# sourceMappingURL=index.css.map */
+
+@media screen and (max-width:800px) {
+  .logo{
+    width: 20%;
+    height: auto;
+    margin: 1% 40%;
+  }
+  .navbar{
+    width: 800px;
+    padding: 20px;
+  }
+
+  .navbar a{
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+
+  .info {
+    position: relative;
+  }
+
+  .titles{
+    height: 100px;
+    align-items: center;
+    justify-content:center
+
+  }
+
+  .titles .first,  .titles .second, .titles .third
+  {
+    font-size: 30px;
+
+    margin: 5px;
+  }
+
+  .titles2 .godina,  .titles2 .win, .titles2 .love{
+    font-size: 30px;
+    margin: 50px;
+
+  }
+
+
+  .buttons{
+    margin-left: 56px;
+    height: 180px;
+    align-items: center;
+  }}
+
+
+@media screen and (max-width:500px) {
+  .navbar{
+    width: 600px;
+    padding: 20px 2px;
+  }
+
+  .titles{
+    height: 80px;
+    align-items: center;
+
+  }
+
+  .titles .first,  .titles .second, .titles .third{
+    font-size: 20px;
+    margin: 5px;
+
+  }
+
+  .titles2 .godina,  .titles2 .win, .titles2 .love{
+    font-size: 20px;
+    margin: 5px;
+
+  }
+
+  .buttons{
+    gap: 22%;
+    margin-left: 10px;
+  }
+  
+}
