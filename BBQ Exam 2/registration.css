@@ -365,6 +365,9 @@ footer {
   font-weight: 700;
   font-size: 30px;
 }
+.ftbn {
+  width: 100%;
+}
 @media screen and (max-width:1700px) {
   #teamname {
     padding: 20px;
@@ -421,7 +424,7 @@ footer {
   width: 15%;
 }
 #country {
-  width: 17.6%;
+  width: 18%;
 }
 #city {
   width: 15%;
@@ -451,17 +454,65 @@ footer {
   width: 15%;
 }
 }
-
+@media screen and (max-width:1324px) {
+  .info {
+    position: relative;
+  }
+  .form div{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  #captainname {
+    width: 15%;
+  }
+  #country {
+    width: 20%;
+    margin-left: 14px;
+  }
+  #city {
+    width: 15%;
+  }
+  #address1 {
+    width: 15%;
+  }
+  #address2 {
+    width: 15%;
+  }
+  #state {
+    width: 15%;
+  }
+  #postcode {
+    width: 15%;
+  }
+  #kcbs {
+    width: 30%;
+  }
+  #numberof {
+    width: 31%;
+  }
+  #phone {
+    width: 26%;
+  }
+  #email {
+    width: 26%;
+  }
+  #submit {
+    width: 30%;
+  }
+}
 
 @media screen and (max-width:800px) {
   .logo{
-    width: 20%;
+    justify-content: center;
+    width: 100%;
     height: auto;
-    margin: 1% 40%;
+    /* margin: 1% 40%; */
   }
   .navbar{
-    width: 800px;
+    /* width: 800px; */
     padding: 20px;
+    justify-content: space-evenly;
   }
 
   .navbar a{

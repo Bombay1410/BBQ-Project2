@@ -256,6 +256,12 @@ body {
   font-size: 30px;
   z-index: 5;
 }
+.ftimg {
+  width: 100%;
+  height: auto;
+  min-width: 1000px;
+  min-height: 155px;
+}
 .commentContainer{
   display: flex;
   text-align: center;
@@ -385,11 +391,10 @@ body {
 }
 @media screen and (max-width: 1480px) {
   .hero {
-    width: 100px;
+    width: 50vw;
+    height: 50vh;
   }
-  .pic {
-    width: 1480px;
-  }
+ 
 }
 @media screen and (max-width: 1400px) {
   .pic {
@@ -401,17 +406,44 @@ body {
 }
 @media screen and (max-width: 1380px) {
   .pic {
-    width: 1380px;
+    width: 100%;
   }
+  .hero {
+    width: 100%;
+  }
+  body {
+    background-image: url(images/bpbk.jpg);
+    height: 0%;
+    width: 100%;
+    min-width: 1380px;
+    min-height: 500px;
+  }
+  .titles .first, .titles .second, .titles .third {
+    font-size: 75px;
+  }
+  .titles2 .godina, .titles2 .win, .titles2 .love {
+    font-size: 75px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 250px;
+  }
+  /* .titles2 .love {
+    margin-right: 5px;
+  } */
 }
 @media screen and (max-width: 1330px) {
   .pic {
-    width: 1330px;
+    width: 100%;
+  }
+  .hero {
+    width: 100%;
   }
 }
 @media screen and (max-width: 1280px) {
   .pic {
-    width: 1280px;
+    width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */
 
