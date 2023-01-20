@@ -532,10 +532,9 @@ footer {
 }
 
 
-@media screen and (max-width:500px) {
-  .navbar{
-    width: 600px;
-    padding: 20px 2px;
+@media screen and (max-width:480px) {
+  .navbar a{
+   font-size: 15px;
   }
 
   #submit{
