@@ -193,7 +193,66 @@ body {
     width: 100%;
   }
 
-  
+@media screen and (max-width:1500px) {
+  .navbar a {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width:1350px) {
+  .navbar a {
+    margin-left: 160px;
+  }
+  .firstsec h1 {
+    font-size: 55px;
+  }
+  .firstsec h2 {
+    font-size: 55px;
+  }
+  .info p {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .navbar {
+    justify-content: space-evenly;
+  }
+  .navbar a {
+    margin-right: -180px;
+  }
+  .img {
+    justify-content: center;
+    width: 100%;
+  }
+  .info {
+    margin-top: 170px;
+    margin-left: 90px;
+  }
+  .firstsec h1 {
+    margin-top: -100px;
+    font-size: 50px;
+  }
+  .firstsec h2 {
+    margin-top: -100px;
+    font-size: 50px;
+  }
+}
+@media screen and (max-width:1060px) {
+  .firstsec h1 {
+    font-size: 45px;
+  }
+  .firstsec h2 {
+    font-size: 45px;
+  }
+  .secondsec h1 {
+    font-size: 40px;
+    margin-top: -180px;
+  }
+  .secondsec p {
+    font-size: 30px;
+    margin-top: -180px;
+  }
+}  
 @media screen and (max-width:800px) {
   .logo{
     justify-content: center;
@@ -210,22 +269,30 @@ body {
   .navbar a{
     margin-left: 10px;
     margin-top: 100px;
+    margin-right: 0px;
   }
 
   .info {
       margin: 70px;  }
 
-  .firsth {
-    margin-top: -119px;
-    margin-left: 86px;
+  .firstsec h1 {
+    font-size: 35px;
+    margin-top: -200px;
   }
-
+  .firstsec h2 {
+    font-size: 35px;
+    margin-top: -200px;
+  }
   .secondsec h1{
-    margin-top: -107px;
+    margin-top: -170px;
   }
   .secondsec p{
-    margin-top: -26px;
+    margin-top: -180px;
     font-size: 20px;
+  }
+  .info {
+    margin-top: 200px;
+    margin-left: 100px;
   }
 }
 
